@@ -27,3 +27,7 @@ $ jekyll serve
 - responsive
 - rss redirect from /rss/ to /rss.xml
 - remove (and redirect) pagination links from google
+- improve site description/keywords and relevant posts/pages with specific desc/keywords
+- add tags/categories? show tags in each post? allow searching for a tag
+- use proper html tags where needed (footer/header/nav/etc)
+- make sure to adhere to code-style by mdo

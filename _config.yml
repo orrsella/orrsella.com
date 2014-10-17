@@ -14,6 +14,9 @@ email:        hi@orrsella.com
 permalink:   /:year/:month/:day/:title/
 markdown:    kramdown
 highlighter: pygments
+sass:
+  sass_dir:  _sass
+  # style:     :compressed
 
 twitter_username: orrsella
 github_username:  orrsella
