@@ -3,8 +3,10 @@ layout: page
 title:  Projects
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Some open source things I've done (see more on my [GitHub page](https://github.com/orrsella)):
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+* [sbt-sublime](https://github.com/orrsella/sbt-sublime) – An sbt pluign for generating Sublime Text projects with library dependencies sources.
+* [sbt-stats](https://github.com/orrsella/sbt-stats) – An sbt plugin for source code statistics.
+* [tumblr4s](https://github.com/orrsella/tumblr4s) – A Scala library for the Tumblr API.
+* [sbt-sound](https://github.com/orrsella/sbt-sound) – An sbt plugin for adding sounds to task completions.
+* [scala-e2e-testing](https://github.com/orrsella/scala-e2e-testing) – A detailed, fully-working, example of how to write what I consider to be "true" end-to-end tests in Scala.

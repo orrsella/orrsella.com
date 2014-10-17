@@ -29,5 +29,15 @@ $ jekyll serve
 - remove (and redirect) pagination links from google
 - improve site description/keywords and relevant posts/pages with specific desc/keywords
 - add tags/categories? show tags in each post? allow searching for a tag
-- use proper html tags where needed (footer/header/nav/etc)
+- use proper html tags where needed (section/footer/header/nav/etc) - http://www.w3schools.com/tags/tag_article.asp
 - make sure to adhere to code-style by mdo
+- suggested posts?
+- fonts
+- add advanced analytics (gaug.es, mixpanel, others?)
+
+
+
+
+resources:
+https://github.com/mdo/jekyll-example
+http://markdotto.com/mdo.css
