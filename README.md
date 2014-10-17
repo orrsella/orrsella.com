@@ -24,3 +24,6 @@ $ jekyll serve
 - link posts
 - copyright since 2012-today
 - rss to footer
+- responsive
+- rss redirect from /rss/ to /rss.xml
+- remove (and redirect) pagination links from google
