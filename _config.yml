@@ -4,14 +4,14 @@ baseurl:
 gems: [jekyll-sitemap]
 exclude: ["Gemfile", "README.md"]
 
-# Site settings
+# site settings
 title:  Orr Sella
 author: Orr Sella
 description: Site description fro config
 keywords: ["orr sella", "orrsella"]
 email:  hi@orrsella.com
 
-# Build settings
+# build settings
 permalink:   /:year/:month/:day/:title/
 markdown:    kramdown
 highlighter: pygments
@@ -19,7 +19,7 @@ highlighter: pygments
 twitter_username: orrsella
 github_username:  orrsella
 
-# Custom variables
+# custom variables
 google_analytics_code: UA-29484955-1
 google_site_verification: 3C54VnYDUZdx3dlu8YGYMX-4JSgQUFPMHbPpUh3Bo5A
 msvalidate: 43F5CFFF8E9DD5A06C8F7945767CF30C
