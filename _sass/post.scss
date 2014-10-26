@@ -14,7 +14,7 @@
 .post-body {
   margin-top: 1.5rem;
   a { border-bottom: 1px solid #ddd; }
-  a:hover { border-bottom-color: $post-link-hover-color; }
+  a:hover { border-bottom-color: #000; }
 }
 
 // for <p> after a <div> containing an <iframe>
@@ -37,7 +37,7 @@ div + p { margin-top: 1rem; }
   }
 
   a { border-bottom: 1px solid #ddd; }
-  a:hover { border-bottom-color: $post-link-hover-color; }
+  a:hover { border-bottom-color: #000; }
 }
 
 .post-list-date {
@@ -46,7 +46,7 @@ div + p { margin-top: 1rem; }
   color: #ccc;
 }
 
-@media (min-width: 39rem) {
+@media (min-width: 39em) {
   // .post-list ul il { margin-bottom: .5rem; }
   .post-list ul li {
     line-height: 2rem;
@@ -57,7 +57,7 @@ div + p { margin-top: 1rem; }
   }
 }
 
-@media (max-width: 39rem) {
+@media (max-width: 39em) {
   .post-list ul li {
     line-height: 1.6rem;
     margin-bottom: .75rem;
