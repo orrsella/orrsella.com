@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "“Maps have become a hygiene factor for a platform”"
+title:  "“Maps Have Become a Hygiene Factor for a Platform”"
 ---
 
 [Horace Dediu](http://www.asymco.com/2012/12/18/how-much-to-maps-cost-and-what-are-they-worth):

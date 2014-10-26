@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "The iPhone and Disruption: Five Years In"
+title:  "The iPhone and Disruption: Five Years in"
 ---
 
 [John Gruber](http://daringfireball.net/2012/07/iphone_disruption_five_years_in):

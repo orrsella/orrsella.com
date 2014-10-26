@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Integrating Play Framework And Maven
+title:  Integrating Play Framework and Maven
 ---
 
 I recently had to integrate a [Play Framework](http://www.playframework.com/) project with a [Maven](http://maven.apache.org/)-based build process. This wasn't as straight-forward as I thought it would be, and so here's how I did it.

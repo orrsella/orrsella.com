@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Zsh Prompt Format With Date/Time And Current Directory
+title:  Zsh Prompt Format With Date/Time and Current Directory
 ---
 
 I work with the command line a lot (as do/should most developers, at least if they're not running Windows). Every once in a while I happen to run a command which takes longer to complete than I expected. When that happens I want to know how long it took/when it started. For this, I formatted my [zsh](http://www.zsh.org/) prompt in the following way:

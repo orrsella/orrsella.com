@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Git: Using Different User Emails For Different Repositories"
+title:  "Git: Using Different User Emails for Different Repositories"
 ---
 
 A couple of weeks ago [I switched jobs](http://linkedin.com/in/orrsella). We use [Git](http://git-scm.com/) for version control at my [new workplace](http://www.wix.com) (I was using SVN at work up until now). I also have a few [public repositories](https://github.com/orrsella) of my own on GitHub (and some private ones as well). We're using a pretty advanced [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration) and [Deployment](http://en.wikipedia.org/wiki/Continuous_delivery) system developed in-house called [Lifecycle](http://wix.io/2013/07/24/lifecycle-wix-integrated-cicd-dashboard/), and on my first week – while still getting to know the entire system and code-base – I committed a change that broke the build. (Actually the change that broke the build wasn't written by me, but by someone else who sent me a Git patch to continue his work, but let's not play the blame game.)

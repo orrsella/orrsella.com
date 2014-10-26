@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Facebook: Block Event Invitations From A Specific Friend"
+title:  "Facebook: Block Event Invitations From a Specific Friend"
 ---
 
 > If you no longer wish to receive event invitations from a specific friend, you can follow these steps to block future invitations:

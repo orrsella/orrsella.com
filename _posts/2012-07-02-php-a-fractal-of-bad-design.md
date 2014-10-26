@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PHP: A Fractal Of Bad Design"
+title: "PHP: A Fractal of Bad Design"
 ---
 
 Dear PHP, you’re dead to me. Thanks for a lousy time.

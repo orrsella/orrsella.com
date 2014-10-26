@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  GitHub Color Scheme For IntelliJ
+title:  GitHub Color Scheme for IntelliJ
 ---
 
 I love [GitHub](https://github.com/orrsella). I use it to manage all my personal projects (see my [post on multiple users](http://localhost:4000/2013/08/git-using-different-user-emails-for-different-repositories/) with Git), as well as for browsing other libraries. I like it so much that I even sometimes prefer using it for browsing source code that's locally on my machine.

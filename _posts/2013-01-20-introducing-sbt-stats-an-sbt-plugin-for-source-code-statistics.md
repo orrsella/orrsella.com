@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducing sbt-stats: An SBT Plugin For Source Code Statistics"
+title:  "Introducing sbt-stats: An SBT Plugin for Source Code Statistics"
 ---
 
 One of the first and most obvious selling-points of Scala to Java developers are its brevity and conciseness. A classic example, as found in Odersky’s [Programming in Scala, 2nd Edition](http://www.artima.com/shop/programming_in_scala_2ed), is of a class with two public read-only properties. In Java this would look like:

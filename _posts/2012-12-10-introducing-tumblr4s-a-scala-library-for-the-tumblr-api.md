@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Introducing tumblr4s: A Scala Library For The Tumblr API"
+title:  "Introducing tumblr4s: A Scala Library for the Tumblr API"
 ---
 
 Back in February of this year I stumbled upon [an amazing article](/2012/02/tumblr-architecture) on HighScalability.com about Tumblr’s infrastructure. It’s a great read for many reasons (go read it). One of the greatest take-aways I had from this article, was this “new” programming language called Scala. I had never heard of Scala before, and was immediately intrigued. Also, after doing a lot of PHP back at the time – [which I hate](/2012/07/php-a-fractal-of-bad-design) – I wanted something new, fresh and fun.

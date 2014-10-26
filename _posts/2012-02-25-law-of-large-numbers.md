@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Law Of Large Numbers
+title: Law of Large Numbers
 ---
 
 Many valid and interesting historical and technical arguments, but unfortunately it takes [James Stewart](http://www.nytimes.com/2012/02/25/business/apple-confronts-the-law-of-large-numbers-common-sense.html?_r=1&pagewanted=all) 19 paragraphs (out of 21) to get to the heart of things (emphasis mine):
