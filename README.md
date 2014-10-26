@@ -22,8 +22,6 @@ $ jekyll serve
 ## TODO
 
 - link posts
-- copyright since 2012-today
-- rss to footer
 - responsive
 - rss redirect from /rss/ to /rss.xml
 - remove (and redirect) pagination links from google
@@ -32,11 +30,14 @@ $ jekyll serve
 - use proper html tags where needed (section/footer/header/nav/etc) - http://www.w3schools.com/tags/tag_article.asp
 - make sure to adhere to code-style by mdo
 - suggested posts?
-- fonts
-- add advanced analytics (gaug.es, mixpanel, others?)
-
-
-
+- add advanced analytics (gaug.es, mixpanel, chartbeat, newrelic, others?)
+- highlight colors
+- add pictures to projects page
+- add description/keywords to each of the pages and some of the posts
+- sort out site header links
+- title case every post
+- anchor links for titles ##
+- test footnotes
 
 resources:
 https://github.com/mdo/jekyll-example

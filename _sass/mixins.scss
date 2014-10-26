@@ -5,8 +5,31 @@
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
+// @mixin media-query($device) {
+//   @media screen and (max-width: $device) {
+//     @content;
+//   }
+// }
+
+@mixin box-sizing($sizing) {
+  -webkit-box-sizing: $sizing;
+     -moz-box-sizing: $sizing;
+          box-sizing: $sizing;
+}
+
+@mixin transition($transition-property, $transition-time, $method) {
+  -webkit-transition: $transition-property $transition-time $method;
+     -moz-transition: $transition-property $transition-time $method;
+      -ms-transition: $transition-property $transition-time $method;
+       -o-transition: $transition-property $transition-time $method;
+          transition: $transition-property $transition-time $method;
+}
+
+@mixin divider-line {
+  display: block;
+  content: "";
+  width: 100px;
+  height: 1px;
+  margin: 3rem auto;
+  background-color: #E0DFE1;
 }

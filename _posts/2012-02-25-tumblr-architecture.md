@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  Tumblr Architecture – 15 Billion Page Views A Month And Harder To Scale Than Twitter
+title:  Tumblr Architecture – 15 Billion Page Views A Month
 ---
 
 [Fascinating stuff](http://highscalability.com/blog/2012/2/13/tumblr-architecture-15-billion-page-views-a-month-and-harder.html)! So interesting that I’ve already read it twice, and have it bookmarked and Instapapered. Such a long, thorough and honest look into the architecture of one of the hottest web startups around isn’t something you see every day.
 
-This sort of article makes me want to leave everything and join [Tumble Engineering](http://engineering.tumblr.com).
+This sort of article makes me want to leave everything and join [Tumblr Engineering](http://engineering.tumblr.com).
 
 The numbers are just mind-blowing:
 

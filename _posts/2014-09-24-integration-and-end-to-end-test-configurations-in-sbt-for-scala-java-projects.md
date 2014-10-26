@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Integration and End-to-End Test Configurations in SBT for Scala/Java Projects
+title:  Integration and End-to-End Test Configurations in SBT
 ---
 
 It is common to have three levels of tests:

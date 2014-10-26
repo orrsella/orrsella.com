@@ -1,0 +1,74 @@
+/* Post
+-------------------------------------------------- */
+
+.post-header {
+  a { color: inherit; }
+}
+
+.post-date {
+  display: block;
+  margin: -.5rem 0 .5rem;
+  color: #ccc;
+}
+
+.post-body {
+  margin-top: 1.5rem;
+  a { border-bottom: 1px solid #ddd; }
+  a:hover { border-bottom-color: $post-link-hover-color; }
+}
+
+// for <p> after a <div> containing an <iframe>
+div + p { margin-top: 1rem; }
+
+// for <div> containing an <iframe> right after post-date
+.post-date + div { margin-top: 1rem; }
+
+
+
+/* Home Post List
+-------------------------------------------------- */
+
+.post-list {
+  ul {
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+  }
+
+  a { border-bottom: 1px solid #ddd; }
+  a:hover { border-bottom-color: $post-link-hover-color; }
+}
+
+.post-list-date {
+  display: block;
+  margin-bottom: -.5rem;
+  color: #ccc;
+}
+
+@media (min-width: 39rem) {
+  // .post-list ul il { margin-bottom: .5rem; }
+  .post-list ul li {
+    line-height: 2rem;
+  }
+  .post-list-date {
+    float: right;
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 39rem) {
+  .post-list ul li {
+    line-height: 1.6rem;
+    margin-bottom: .75rem;
+  }
+
+  .post-list-date {
+    margin-bottom: .05rem;
+  }
+}
+
+.post img,
+.post-body iframe {
+  max-width: 100%;
+}
