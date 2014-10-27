@@ -25,5 +25,5 @@
   li + li { margin-left: .5rem; }
 }
 
-.site-footer:before { @include divider-line; }
 .site-footer { text-align: center; }
+.site-footer:before { @include divider-line; }

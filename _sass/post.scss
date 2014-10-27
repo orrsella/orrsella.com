@@ -23,9 +23,7 @@ div + p { margin-top: 1rem; }
 // for <div> containing an <iframe> right after post-date
 .post-date + div { margin-top: 1rem; }
 
-
-
-/* Home Post List
+/* Homepage Post List
 -------------------------------------------------- */
 
 .post-list {
@@ -47,7 +45,6 @@ div + p { margin-top: 1rem; }
 }
 
 @media (min-width: 39em) {
-  // .post-list ul il { margin-bottom: .5rem; }
   .post-list ul li {
     line-height: 2rem;
   }
