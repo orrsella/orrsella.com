@@ -7,7 +7,7 @@ Jekyll sources for [orrsella.com](http://orrsella.com).
 * [Jekyll 2.2+](http://jekyllrb.com/) - `$ gem install jekyll`
 * jekyll-sitemap
 
-## Build/Test Locally
+## Run Locally
 
 Serve site on [http://localhost:4000](http://localhost:4000):
 
@@ -21,6 +21,6 @@ or build defore deployment:
 $ jekyll build
 ```
 
-## Deployment
+## Deploy
 
 Usually deployed using [mah-server](https://github.com/orrsella/mah-server).
