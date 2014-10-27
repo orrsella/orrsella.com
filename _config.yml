@@ -6,8 +6,8 @@ exclude:  ["Gemfile", "README.md", "TODO"]
 # site settings
 title:        Orr Sella
 author:       Orr Sella
-description:  Site description from _config.yml
-keywords:     ["orr sella", "orrsella"]
+description:  Code and technology musings by Orr Sella
+keywords:     ["orr sella", "orrsella", "scala", "java", "tdd", "testing"]
 
 # build settings
 permalink:   /:year/:month/:day/:title/
