@@ -7,16 +7,18 @@ Jekyll sources for [orrsella.com](http://orrsella.com).
 * [Jekyll 2.2+](http://jekyllrb.com/) - `$ gem install jekyll`
 * jekyll-sitemap
 
-## Build
+## Build/Test Locally
 
-```bash
-$ jekyll build
-```
-
-## Serve
+Serve site on [http://localhost:4000](http://localhost:4000):
 
 ```bash
 $ jekyll serve
+```
+
+or build defore deployment:
+
+```bash
+$ jekyll build
 ```
 
 ## Deployment
