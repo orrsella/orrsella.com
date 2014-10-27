@@ -1,5 +1,5 @@
 ---
-
+sitemap: false
 ---
 
 Sitemap: {{ site.url }}/sitemap.xml
