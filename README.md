@@ -19,13 +19,6 @@ $ jekyll build
 $ jekyll serve
 ```
 
-## TODO
+## Deployment
 
-- rss redirect from /rss/ to /rss.xml
-- remove (and redirect) pagination links from google
-- improve site description/keywords and relevant posts/pages with specific desc/keywords
-- add advanced analytics (gaug.es, mixpanel, chartbeat, newrelic, others?)
-- add pictures to projects page
-- add description/keywords to each of the pages and some of the posts
-- test footnotes
-- remove passwords from repos
+Usually deployed using [mah-server](https://github.com/orrsella/mah-server).
