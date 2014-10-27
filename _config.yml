@@ -1,14 +1,13 @@
 url:      http://orrsella.com
 locale:   en_US
 gems:     ["jekyll-sitemap"]
-exclude:  ["Gemfile", "README.md"]
+exclude:  ["Gemfile", "README.md", "TODO"]
 
 # site settings
 title:        Orr Sella
 author:       Orr Sella
 description:  Site description from _config.yml
 keywords:     ["orr sella", "orrsella"]
-email:        hi@orrsella.com
 
 # build settings
 permalink:   /:year/:month/:day/:title/
@@ -18,10 +17,7 @@ sass:
   sass_dir:  _sass
   style:     :compressed
 
-twitter_username: orrsella
-github_username:  orrsella
-
-# custom variables
+# variables
 google_analytics_code: UA-29484955-1
 google_site_verification: 3C54VnYDUZdx3dlu8YGYMX-4JSgQUFPMHbPpUh3Bo5A
 msvalidate: 43F5CFFF8E9DD5A06C8F7945767CF30C
