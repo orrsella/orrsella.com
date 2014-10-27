@@ -4,7 +4,7 @@ Jekyll sources for [orrsella.com](http://orrsella.com).
 
 ## Requirements
 
-* [Jekyll 2.2+](http://jekyllrb.com/) - `$ gem install jekyll`
+* [Jekyll 2.2+](http://jekyllrb.com/) – `$ gem install jekyll`
 * [jekyll-sitemap](https://github.com/jekyll/jekyll-sitemap) – `$ gem install jekyll-sitemap`
 
 ## Run Locally
