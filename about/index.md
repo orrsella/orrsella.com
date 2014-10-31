@@ -18,7 +18,7 @@ Feel free to contact me about anything:
 * [hi@orrsella.com](mailto:hi@orrsella.com)
 * [twitter.com/orrsella](https://twitter.com/orrsella)
 * [github.com/orrsella](https://github.com/orrsella)
-* [LinkedIn](https://linkedin.com/in/orrsella)
+* [linkedin.com/in/orrsella](https://linkedin.com/in/orrsella)
 
 ## This Site
 
