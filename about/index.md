@@ -5,7 +5,7 @@ title:  About
 
 I'm a Software Engineer by trade and a [Physicist](http://physics.tau.ac.il/)-[Economist](http://econ.tau.ac.il/) by education, from Tel Aviv, Israel. I'm passionate about system architecture, scalability and highly available distributed systems.
 
-I've been mainly obsessed with [Scala](http://scala-lang.org) for the past three years. I've also drank the [TDD](http://www.growing-object-oriented-software.com/) kool-aid and am now putting a lot of my effort/thought into [end-to-end testing](2014/09/24/true-end-to-end-testing-in-scala-scalapeno-2014-talk/).
+I've been mainly obsessed with [Scala](http://scala-lang.org) for the past three years. I've also drank the [TDD](http://www.growing-object-oriented-software.com/) kool-aid and am now putting a lot of my effort/thought into [end-to-end testing](/2014/09/24/true-end-to-end-testing-in-scala-scalapeno-2014-talk/).
 
 I work at <del>[DVTel](http://www.dvtel.com)</del>  <del>[Zemingo](http://zemingo.com)</del>  [Wix](http://wix.com) on backend services, powering Wix.com and our various applications. I mainly code in <del>C#</del> <del>PHP</del> <del>JavaScript</del> <del>HTML/CSS/SASS</del> Scala and Java. I also like to dabble with <del>Chef</del>, <del>Puppet</del>, Ansible, <del>Vagrant</del>, and Docker, to name a few.
 
