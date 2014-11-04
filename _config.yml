@@ -1,4 +1,4 @@
-url:      http://orrsella.com
+url:      https://orrsella.com
 locale:   en_US
 gems:     ["jekyll-sitemap"]
 exclude:  ["Gemfile", "README.md", "TODO"]
