@@ -9,7 +9,7 @@ I've been mainly obsessed with [Scala](http://scala-lang.org) for the past three
 
 I work at <del>[DVTel](http://www.dvtel.com)</del>  <del>[Zemingo](http://zemingo.com)</del>  [Wix](http://wix.com) on backend services, powering Wix.com and our various applications. I mainly code in <del>C#</del> <del>PHP</del> <del>JavaScript</del> <del>HTML/CSS/SASS</del> Scala and Java. I also like to dabble with <del>Chef</del>, <del>Puppet</del>, Ansible, <del>Vagrant</del>, and Docker, to name a few.
 
-Previously founded <del>[Ginipic](http://ginipic.com)</del> and <del>[SpiderPic](http://spiderpic.com)</del> (the former sold to [MessengerPlus!](http://www.msgplus.net/)). I make [open source](https://github.com/orrsella) software, mostly for Scala and [sbt](http://scala-sbt.org).
+Previously founded <del>[Ginipic](http://ginipic.com)</del> and <del>[SpiderPic](http://spiderpic.com)</del> (the former sold to [Messenger Plus!](http://www.msgplus.net/)). I make [open source](https://github.com/orrsella) software, mostly for Scala and [sbt](http://scala-sbt.org).
 
 ## Contact
 
