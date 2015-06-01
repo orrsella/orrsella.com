@@ -3,9 +3,9 @@ layout: post
 title:  Getting Started With Pants Build for Scala Projects
 ---
 
-I've recently been examining a new build tool for large JVM projects (specifically tools aimed at monorepos). There is actually a surprising amount of options for such a task: Google's [Bazel](http://bazel.io/), Facebook's [Buck](http://buckbuild.com/), and Twitter's [Pants Build](https://pantsbuild.github.io/) (with contribution from Foursquare and Square) are among the most popular.
+I've recently been examining a new build tool for large JVM projects (specifically tools aimed at monorepos). There is actually a surprising amount of options for such a tool: Google's [Bazel](http://bazel.io/), Facebook's [Buck](http://buckbuild.com/), and [Pants](https://pantsbuild.github.io/) developed by Twitter, Foursquare, Square and others – are among the most popular.
 
-When you start reading the docs for each of them, you get a sense of Déjà vu. And it's for a good reason – all three were modeled after [Google's internal build tool](http://google-engtools.blogspot.com/2011/08/build-in-cloud-how-build-system-works.html)  Blaze.
+When you start reading the docs for each of them, you get a sense of Déjà vu. And it's for good reason – all three were modeled after [Google's internal build tool](http://google-engtools.blogspot.com/2011/08/build-in-cloud-how-build-system-works.html)  Blaze.
 
 From Bazel's [FAQ](http://bazel.io/faq.html):
 
@@ -27,9 +27,9 @@ After throughly reading the [Overview](https://pantsbuild.github.io/first_concep
 >
 > If want to try out Pants and no Pants expert has set it up for you, you might try [https://github.com/twitter/commons](https://github.com/twitter/commons).
 
-They are not exaggerating – it really won't work ;)
+[They are not exaggerating – it really won't work ;)]
 
-So that's exactly what I did – used [existing projects with Pants](https://github.com/search?q=filename%3Apants+extension%3Aini&ref=searchresults&type=Code&utf8=%E2%9C%93) as their build tool to understand the minimal setup required for a Pants Build project. It wasn't easy, but eventually payed off. I reduced everything into one small project, which can be found here: [pants-getting-started](https://github.com/orrsella/pants-getting-started).
+So that's exactly what I did – used [twitter/commons](https://github.com/twitter/commons) and other [existing projects already configured by "pants experts"](https://github.com/search?q=filename%3Apants+extension%3Aini&ref=searchresults&type=Code&utf8=%E2%9C%93) to understand the minimal setup required for a Pants Build project. It wasn't easy, but eventually payed off. I reduced everything into one small project, which can be found here: [pants-getting-started](https://github.com/orrsella/pants-getting-started).
 
 This simple project, which has one [code file](https://github.com/orrsella/pants-getting-started/blob/master/example/src/main/scala/com/example/HelloWorld.scala), and two [tests](https://github.com/orrsella/pants-getting-started/tree/master/example/src/test/scala/com/example), requires the following:
 
