@@ -3,7 +3,7 @@ layout: post
 title:  Getting Started With Pants Build for Scala Projects
 ---
 
-I've recently been examining a new build tool for large JVM projects (specifically tools aimed at monorepos). There is actually a surprising amount of options for such a tool: Google's [Bazel](http://bazel.io/), Facebook's [Buck](http://buckbuild.com/), and [Pants](https://pantsbuild.github.io/) developed by Twitter, Foursquare, Square and others – are among the most popular.
+I've recently been examining a new build tool for large JVM projects (specifically tools aimed at monorepos). There is actually a surprising amount of options for such a tool: Google's [Bazel](http://bazel.io/), Facebook's [Buck](http://buckbuild.com/), and [Pants](https://pantsbuild.github.io/), which is developed by Twitter, Foursquare, Square and others – are among the most popular.
 
 When you start reading the docs for each of them, you get a sense of Déjà vu. And it's for good reason – all three were modeled after [Google's internal build tool](http://google-engtools.blogspot.com/2011/08/build-in-cloud-how-build-system-works.html)  Blaze.
 
