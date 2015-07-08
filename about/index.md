@@ -15,7 +15,7 @@ Previously founded <del>[Ginipic](http://ginipic.com)</del> and <del>[SpiderPic]
 
 Feel free to contact me about anything:
 
-* [hi@orrsella.com](mailto:hi@orrsella.com)
+* [orr@sella.org](mailto:orr@sella.org)
 * [twitter.com/orrsella](https://twitter.com/orrsella)
 * [github.com/orrsella](https://github.com/orrsella)
 * [linkedin.com/in/orrsella](https://linkedin.com/in/orrsella)
