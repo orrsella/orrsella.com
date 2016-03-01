@@ -9,7 +9,7 @@ body {
 }
 
 html {
-  font-family: "PT Serif", "Georgia", "Times New Roman", serif;
+  font-family: "serif-font", "PT Serif", "Georgia", "Times New Roman", serif;
   font-size: 16px;
 
   @media (min-width: 52em) {
@@ -38,6 +38,7 @@ h6 {
   line-height: 1.1;
   color: #333;
   letter-spacing: -.025rem;
+  font-family: "sans-serif-font", "PT Serif", "Georgia", "Times New Roman", serif;
 }
 
 h1 { font-size: 2rem; }
