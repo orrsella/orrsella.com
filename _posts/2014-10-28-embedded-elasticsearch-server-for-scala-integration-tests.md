@@ -107,7 +107,7 @@ class ElasticsearchPersonDaoIntegrationTest
 
 A few notes:
 
-* We are using [specs2's `step`s](http://etorreborre.github.io/specs2/guide/org.specs2.guide.Structure.html#Steps) for bringing-up and tearing-down our embedded server.
+* We are using [specs2's `step`s](http://etorreborre.github.io/specs2/guide/SPECS2-2.4.17/org.specs2.guide.Structure.html#Steps) for bringing-up and tearing-down our embedded server.
 * The use of `Context` provides us with variable isolation between every test case. A new `Dao` object is created every time, but it always uses the same `client` to connect to our `Node`.
 * Our second test case checks both the `add` and `get` functions of the `Dao`.
 * We're using custom `PersonMatchers` to make the second test assertion a little nicer. These could go a long way for complex/nested data objects.

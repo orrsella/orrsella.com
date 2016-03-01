@@ -19,7 +19,7 @@ My prompt always contains the current date-time and directory. This helps when y
 
 I also like having the current directory to remember where I am – helpful with many open terminal tabs/windows.
 
-To get this prompt format, edit `~/.zshrc` ([here's mine](https://github.com/orrsella/dotfiles/blob/master/zsh/.zshrc)) and add the following to it:
+To get this prompt format, edit `~/.zshrc` and add the following to it:
 
 {% highlight bash %}
 PS1=$'\e[0;30m[%D/\%\}/Y-%m-%d %H:%M:%S}] \e[0;31m%~ $ \e[0m'
