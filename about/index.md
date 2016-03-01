@@ -11,6 +11,8 @@ I work at <del>[DVTel](http://www.dvtel.com)</del> <del>[Zemingo](http://www.zem
 
 Previously founded <del>[Ginipic](http://ginipic.com)</del> and <del>[SpiderPic](http://spiderpic.com)</del> (the former sold to [Messenger Plus!](http://www.msgplus.net/)). I make [open source](https://github.com/orrsella) software, mostly for Scala and [sbt](http://scala-sbt.org).
 
+**Disclaimer:** [Opinions My Own, Blah Blah Blah](/disclaimer/)
+
 ## Contact
 
 Feel free to contact me about anything:
