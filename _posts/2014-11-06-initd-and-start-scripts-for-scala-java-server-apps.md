@@ -31,6 +31,8 @@ exec java $ARGS -cp "$BIN_DIR/*" $MAIN_CLASS
 {% endraw %}
 {% endhighlight %}
 
+(Gist found [here](https://gist.github.com/orrsella/e6b74108270fe6015aac))
+
 (For application configuration I'm using [Typesafe config](https://github.com/typesafehub/config) with the `config.file` parameter, and [Logback](http://logback.qos.ch/) with the `logback.configurationFile` parameter for logging, but that shouldn't matter at all. Customize as needed.)
 
 I usually like to place the `start` script right next to the `BIN_DIR` in a `script` directory. Here's my typical structure:
@@ -82,7 +84,7 @@ case "$1" in
 start)
     if [ -f $PID_FILE ]; then
         PID=`cat $PID_FILE`
-        if [ -z "`ps axf | grep ${PID} | grep -v grep`" ]; then
+        if [ -z "`ps axf | grep -w ${PID} | grep -v grep`" ]; then
             start
         else
             echoYellow "Already running [$PID]"
@@ -105,7 +107,7 @@ start)
 status)
     if [ -f $PID_FILE ]; then
         PID=`cat $PID_FILE`
-        if [ -z "`ps axf | grep ${PID} | grep -v grep`" ]; then
+        if [ -z "`ps axf | grep -w ${PID} | grep -v grep`" ]; then
             echoRed "Not running (process dead but pidfile exists)"
             exit 1
         else
@@ -121,7 +123,7 @@ status)
 stop)
     if [ -f $PID_FILE ]; then
         PID=`cat $PID_FILE`
-        if [ -z "`ps axf | grep ${PID} | grep -v grep`" ]; then
+        if [ -z "`ps axf | grep -w ${PID} | grep -v grep`" ]; then
             echoRed "Not running (process dead but pidfile exists)"
             exit 1
         else
@@ -148,6 +150,8 @@ restart)
 esac
 {% endraw %}
 {% endhighlight %}
+
+(Gist found [here](https://gist.github.com/orrsella/6ccaa03886bc857e00e4))
 
 This script is a lot more complicated. Let's break it down:
 
