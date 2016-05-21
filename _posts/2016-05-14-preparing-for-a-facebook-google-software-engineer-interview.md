@@ -3,7 +3,7 @@ layout: post
 title:  Preparing for a Facebook/Google Software Engineer Interview
 ---
 
-**TL;DR:** [This is the theoretical stuff](https://github.com/orrsella/soft-eng-interview-prep) I think you should *know by heart* for an interview with Facebook/Google. Read on for some background and tips.
+**TL;DR:** [This is the theoretical stuff](https://github.com/orrsella/soft-eng-interview-prep) I think you should *know* for an interview with Facebook/Google. Read on for some background and tips.
 
 In late 2015 I interviewed at both Facebook and Google for a software engineering position. I received offers from both, and eventually decided to [take Facebook's one](/about). In the months leading up to the interviews I prepared *a lot*. In this post I'd like to share how I think one should prepare for such an interview and give some tips.
 
@@ -19,7 +19,7 @@ Before we get to business, here's my take on how you should view an interview wi
 
 Regardless of the technicalities – which again, *are* important – here's how I think you should look at this interview. Let's assume that you've already made up your mind that you'd like to work at these companies.[^2] From your point of view, the purpose of the interview is to help you *get an offer*. That's it. It is not to showcase your impressive résumé, or make you feel good about yourself, or to show how smart you are. You want to get that offer.
 
-Your *task* in an interview with these companies is obviously to successfully solve the questions you'll be presented with, but more importantly do it while showing your interviewer how you *think* and approach problem solving. Your *goal* is to send the right signal that your interviewer is looking to pick up. He or she will most likely be interviewing anywhere between 2 to 5 people a week. Remember that and think how you can help them see that you're a good fit for the company. See [more tips below](#dos-and-donts) on how to achieve this.
+Your *task* in an interview with these companies is obviously to successfully solve the questions you'll be presented with, but more importantly do it while showing your interviewer how you *think* and approach problem solving. Your *goal* is to send the right signal that your interviewer is looking to pick up. He or she will most likely be interviewing anywhere between 2 to 5 candidates a week. Remember that and think how you can help them see that you're a good fit for the company. See [more tips below](#dos-and-donts) on how to achieve this.
 
 ### How To Prepare
 
@@ -58,7 +58,7 @@ My recommendation would be to get at least one of these books and solve it cover
 
 After you feel comfortable with solving these types of questions, run thru some actual questions that were recently asked during interviews at the company you're interviewing for, by searching Glassdoor.
 
-In general – unsurprisingly – the more code you'll write and problems you'll encounter, the less likely it is that you'll be surprised when you get to the interview. At some point questions start to repeat themselves, and you'll recognize the patterns very quickly.
+In general – unsurprisingly – the more code you'll write and problems you'll encounter, the less likely it is that you'll be surprised when you get to the interview. At some point questions start to repeat themselves, and you'll recognize the patterns rather quickly.
 
 #### System Architecture Questions
 
@@ -83,9 +83,9 @@ and most importantly:
 Some tips, in no particular order:
 
 - Write actual code that works, not pseudocode
-- Opt for mainstream languages (Java, C/C++, Python, JavaScript)[^5]
+- Opt for a mainstream programming language (Java, C/C++, Python, JavaScript)[^5]
 - Practice coding on a whiteboard[^6]
-- Practice coding on a paper (preferably blank, without lines)
+- Practice coding on paper (preferably blank, without lines)
 - Write clean code:
   - Use good names (classes/functions/variables)
   - Show good modularity (classes/functions)
@@ -93,7 +93,7 @@ Some tips, in no particular order:
   - If you're cutting corners state that out loud, and say what you would do if you had more time (e.g., in Java: *I'm using public fields for brevity here, but would otherwise use getters/setters*)
 - Use proper algorithms and data structures and make sure to state Big-O for all of them
 - When first approaching a problem:
-  - Make sure you understand the task
+  - Make sure you understand the task. Repeat it to show that to yourself and the interviewer
   - Don't begin by writing code immediately!
   - Ask questions about the task, inputs, assumptions, formats; most questions are *under specified* on purpose
   - Assume nothing! Or state you're doing so
@@ -114,7 +114,7 @@ Some tips, in no particular order:
 - Leave out trivial parts as functions that you need to implement, and only go back to those if you have time
 - Upon completion of first solution, either try to improve it, or try to come up with a different solution that is better (e.g.: recursion vs. imperative code)
 - Assumptions might now change, and so the solution needs to be adapted
-- Glossing over standard APIs if you're not sure is OK, make sure you state and give a reasonable API to work with
+- Glossing over standard APIs if you're not sure is OK, make sure you state that and give a reasonable API to work with
 
 
 ### Ask Questions
@@ -122,7 +122,7 @@ Some tips, in no particular order:
 At the end of each interview session, your interviewer will usually leave a couple of minutes for your questions. Use this time to ask meaningful questions. This both helps you know the company you're interviewing for, but also sends a good signal about you. You should come prepared with a few questions, that can range from technical to organizational. Not having any questions isn't a good sign, so make sure you're covered.
 
 
-Oh, and good luck!
+#### Good Luck!
 
 ---
 
