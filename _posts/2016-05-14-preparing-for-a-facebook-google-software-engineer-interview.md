@@ -102,7 +102,7 @@ Some tips, in no particular order:
   - Silence isn't good, long ones are *bad*
   - Make sure the interviewer has a clear idea of how you're doing (so they can help!)
   - Start with a simple example, later add detailed ones
-  - Clarify the function signature of the problem early on. This will help focus your thoughts, and possibly provoke subtle guidance from your interviewer
+  - Clarify the function signature of the problem early on. This will help focus your thoughts, and possibly invite subtle guidance from your interviewer
   - Start with a *simple* inefficient solution (simple != easy)
   - Improve the inefficient one
   - Break down the problem to parts
@@ -127,7 +127,7 @@ At the end of each interview session, your interviewer will usually leave a coup
 ---
 
 [^1]: This, and a lot of other things from this post, also apply to other tech companies – YMMV.
-[^2]: I recognize that the hiring process by these companies is controversial, and that many people don't think that it really evaluates your expertise as a software engineer. I'm deliberately ignoring this, and assuming that this is what you want. If you want to get an offer from these companies than this is the "game" you'll have to play.
+[^2]: I recognize that the hiring process by these companies is controversial, and that many people don't think that it really evaluates your expertise as a software engineer. I'm deliberately ignoring this, and assuming that this is what you want. If you want to get an offer from these companies then this is the "game" you'll have to play.
 [^3]: I'm thinking about this from the point of view of an engineer with 3-10-ish years of experience. I assume that if you're a new grad, expectations are a bit different.
 [^4]: You'd be surprised how [handy these](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/numbers.md) could be.
 [^5]: You can most likely program in any language you want, but you're better off if your interviewer knows your language of choice and can help if you get stuck. These choices increase the odds of that.
