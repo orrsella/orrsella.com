@@ -3,6 +3,8 @@ layout: post
 title:  "Git: Using Different User Emails for Different Repositories"
 ---
 
+**NOTE:** See 2 updates below.
+
 A couple of weeks ago [I switched jobs](http://linkedin.com/in/orrsella). We use [Git](http://git-scm.com/) for version control at my [new workplace](http://www.wix.com) (I was using SVN at work up until now). I also have a few [public repositories](https://github.com/orrsella) of my own on GitHub (and some private ones as well). We're using a pretty advanced [Continuous Integration](http://en.wikipedia.org/wiki/Continuous_integration) and [Deployment](http://en.wikipedia.org/wiki/Continuous_delivery) system developed in-house called [Lifecycle](http://engineering.wix.com/2013/07/24/lifecycle-wix-integrated-cicd-dashboard/), and on my first week – while still getting to know the entire system and code-base – I committed a change that broke the build. (Actually the change that broke the build wasn't written by me, but by someone else who sent me a Git patch to continue his work, but let's not play the blame game.)
 
 It isn't uncommon for commits to break the build, and when that happens the faulted developer gets notified of the problem by email and usually quickly fixes it. The problem was that I wasn't notified of the error. A few hours later a colleague told me there was a problem with the commit and that he fixed it. While researching why I didn't get the email notification, I discovered that the commit was signed with my personal email address instead of my work one, the build system didn't expect that email address and thus didn't notify me.
@@ -91,7 +93,9 @@ So this solves my problem. I don't have `user.email` configured globally, but on
 
 Do you have a better way to work around this problem? I'd love to [hear from you](http://twitter.com/orrsella).
 
-**UPDATE**: It seems that [Dan Aloni](http://twitter.com/DanAloni) does indeed have an easier way that produces almost the exact same result:
+---
+
+**UPDATE 1 (2014-04)**: It seems that [Dan Aloni](http://twitter.com/DanAloni) does indeed have an easier way that produces almost the exact same result:
 
 <div style="width: 500px; margin: auto;">
 <blockquote class="twitter-tweet" lang="en"><p><a href="https://twitter.com/orrsella">@orrsella</a> &#39;[user] email = &quot;(none)&quot;&#39; in the global gitconfig, achieves the same goal as the hook</p>&mdash; Dan Aloni (@DanAloni) <a href="https://twitter.com/DanAloni/statuses/454706398195380224">April 11, 2014</a></blockquote>
@@ -123,3 +127,23 @@ fatal: unable to auto-detect email address (got '(none)')
 {% endhighlight %}
 
 Thanks Dan!
+
+---
+
+**UPDATE 2 (2016-08)**: Philip Seeger wrote in to say that using `email = "(none)"` will no longer work. Well, it will, but it will actually use `(none)` as the email address.
+
+Instead – starting with Git 2.8 – you can run the following from the command line to get a per-repo email configured:
+
+{% highlight bash %}
+# Require setting user.name and email per-repo:
+$ git config --global user.useConfigOnly true
+
+# Remove email address from global config:
+$ git config --global --unset-all user.email
+{% endhighlight %}
+
+From [GitHub's blog post](https://github.com/blog/2131-git-2-8-has-been-released) on the 2.8 release:
+
+> Now you can tell Git not to guess, but rather to insist that you set `user.name` and `user.email` explicitly before it will let you commit.
+
+Thanks Philip!
