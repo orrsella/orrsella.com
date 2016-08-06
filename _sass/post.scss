@@ -69,3 +69,10 @@ div + p { margin-top: 1rem; }
 .post-body iframe {
   max-width: 100%;
 }
+
+.post-body hr {
+  border-color: #E0DFE1;
+  border-style: solid;
+  border-width: 1px 0 0 0;
+  margin: 3rem 0;
+}
