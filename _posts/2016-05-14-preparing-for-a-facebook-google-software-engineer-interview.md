@@ -62,21 +62,18 @@ In general – unsurprisingly – the more code you'll write and problems you'll
 
 #### System Architecture Questions
 
-These are a completely different beast than coding questions. They are much more nuanced, and involve a lot more talking/explaining and almost no actual code. Preparing for these is harder and less straight-forward, especially if you haven't worked on distributed systems before. I plan on writing a separate post with advise on how to prepare for these questions (I'll update this post once I do).
+These are a completely different beast than coding questions. They are much more nuanced, and involve a lot more talking/explaining and almost no actual code. Preparing for these is harder and less straight-forward, especially if you haven't worked on distributed systems before. [See my post on how to prepare for these](/2016/05/28/preparing-for-a-system-architecture-interview/).
 
-For now, you can read these parts of my notes:
+You can also read these parts of my notes:
 
 - [System Architecture](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md) (specifically the [Concepts section](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture.md#system-design-question-concepts))
 - [System Architecture Examples](https://github.com/orrsella/soft-eng-interview-prep/blob/master/topics/system-architecture-examples.md)
 
-I also found these resources helpful:
-
-- [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
-- [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
-
-and most importantly:
+And these helpful resources:
 
 - [HighScalability.com](http://highscalability.com/)
+- [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
+- [A Distributed Systems Reading List](http://dancres.github.io/Pages/)
 
 ### Do's and Dont's
 
