@@ -3,7 +3,7 @@ layout: page
 title:  About
 ---
 
-I'm a Software Engineer by trade and a [Physicist](https://physics.tau.ac.il/)-[Economist](https://en-econ.tau.ac.il/) by education, from Tel Aviv, Israel. I'm passionate about system architecture, scalability and highly available distributed systems. Interested in RPC frameworks, cluster schedulers, and build/deployment tools.
+I'm a Software Engineer by trade and a [Physicist](https://physics.tau.ac.il/)-[Economist](https://en-econ.tau.ac.il/) by education, from the San Francisco Bay Area. I'm passionate about system architecture, scalability and highly available distributed systems. Interested in RPC frameworks, cluster schedulers, and build/deployment tools.
 
 I've been mainly obsessed with [Scala](http://scala-lang.org) for the past few years. I've also drank the [TDD](http://www.growing-object-oriented-software.com/) kool-aid and have put a lot of effort into [end-to-end testing](/2014/09/24/true-end-to-end-testing-in-scala-scalapeno-2014-talk/). More recently I've been putting a lot of thought into [build](/2015/05/31/getting-started-with-pants-build-for-scala-projects/) [tools](https://github.com/orrsella/bazel-example) and [deployment](https://github.com/orrsella/ansible-mesos).
 
